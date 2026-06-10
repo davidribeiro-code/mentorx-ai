@@ -1,28 +1,32 @@
-# MentorX AI 🤖🚀
+# MentorX AI 🚀
 
-> **Status do Projeto:** 💡 Fase de Conceção / Candidato ao Orange Summer Challenge 2026
-
-O **MentorX AI** é uma plataforma inteligente de orientação profissional e desenvolvimento de competências desenhada para democratizar o acesso à mentoria de qualidade para jovens africanos. Através do ecossistema, ajudamos os utilizadores a descobrir caminhos de carreira, estruturar planos de estudo personalizados e alinhar competências técnicas com as exigências do mercado real.
+Democratizando o acesso à mentoria e orientação de carreira para jovens africanos através de Inteligência Artificial.
 
 ---
 
-## 🔥 Funcionalidades Principais
+### 📌 O Problema
+Milhões de jovens talentos em África entram no mercado de trabalho sem orientação adequada. O acesso a aconselhamento profissional e mentoria é escasso, fragmentado e muitas vezes caro. Existe um desfasamento claro entre as competências aprendidas e as necessidades reais do mercado.
 
-* **Assistente Inteligente Gideon:** Um agente de IA focado em mentoria de carreira que responde a dúvidas, sugere stacks de tecnologia e orienta o plano de desenvolvimento do utilizador.
-* **Planos de Estudo Adaptativos:** Geração automática de roteiros (roadmaps) com metas claras baseadas nos objetivos de carreira do utilizador.
-* **Métricas de Evolução:** Painel visual para acompanhar o progresso das competências digitais e empreendedoras adquiridas.
+### 💡 A Solução: MentorX & Gideon
+O MentorX AI é uma plataforma de desenvolvimento de competências. No centro da plataforma está o **Gideon**, um assistente virtual baseado em IA Generativa que atua como um mentor de carreira 24/7.
 
----
+O Gideon é capaz de:
+* Analisar o perfil e os objetivos do utilizador.
+* Gerar Planos de Aprendizagem (Roadmaps) altamente personalizados.
+* Tirar dúvidas técnicas e dar conselhos de soft skills.
+* Acompanhar o progresso e adaptar a dificuldade dos estudos.
 
-## 🏗️ Arquitetura Proposta do Sistema
+### 🛠 Tecnologias (Stack Planeada)
+* **Inteligência Artificial:** Ollama (Modelos Open Source), LLMs (OpenAI/Gemini APIs)
+* **Backend:** Python, FastAPI
+* **Frontend:** React.js / Streamlit (para o MVP)
+* **Base de Dados:** PostgreSQL / MongoDB
 
-O fluxo de dados foi desenhado para ser escalável, seguro e local:
+### 🚀 Estado Atual
+O projeto encontra-se em fase de Ideação e Prototipagem (MVP), com desenvolvimento impulsionado pela candidatura ao **Orange Summer Challenge 2026**.
 
-```text
-[ Utilizador ] ──(Interface Web/Mobile)──> [ Painel MentorX ]
-                                                  │
-                                                  ▼
-                                           [ Agente Gideon ]
-                                                  │
-                                                  ▼
-                                       [ LLM Local / Ollama ]
+### 💻 Como correr o protótipo local (MVP)
+
+1. Clone este repositório:
+```bash
+   git clone [https://github.com/davidribeiro-code/mentorx-ai.git](https://github.com/davidribeiro-code/mentorx-ai.git)
